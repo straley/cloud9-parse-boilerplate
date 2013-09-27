@@ -5,7 +5,7 @@ Boilerplate Setup for Cloud9 Parse Development With Express and EJS.
 
 First, run:
 
-> bash ./parse_installer.sh
+    bash ./parse_installer.sh
 
 It will:
 
@@ -27,6 +27,7 @@ The folder structure is fairly basic.
     + LICENSE               - The MIT open source license for this repo
 
 After you run the installer the following files and folders will be created:
+
     + cloud  
     | + config              - The Parse Cloud Code CLI configuration folder  
     | | + global.json       - Your settings  
