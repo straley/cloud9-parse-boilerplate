@@ -32,8 +32,6 @@ echo "# Setting Up Parse"
 echo "######################################################################"
 ./parse new .
 
-#VERSION=$(cat config/global.json | grep "parseVersion")
-
 echo ""
 echo ""
 echo "######################################################################"
