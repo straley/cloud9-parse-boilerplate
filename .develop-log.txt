@@ -1,0 +1,28 @@
+I2013-09-27T19:21:49.466Z] Deployed v1 with triggers:
+  Cloud Functions:
+    hello
+
+Traceback (most recent call last):
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "./parse/__main__.py", line 6, in <module>
+  File "./parse/main.py", line 555, in main
+  File "./parse/main.py", line 450, in handle_develop
+  File "./parse/parse.py", line 491, in develop
+  File "./parse/parse.py", line 403, in print_log_lines_and_return_timestamp
+  File "./parse/parse.py", line 52, in get
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/urllib2.py", line 126, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/urllib2.py", line 400, in open
+    response = self._open(req, data)
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/urllib2.py", line 418, in _open
+    '_open', req)
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/urllib2.py", line 378, in _call_chain
+    result = func(*args)
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/urllib2.py", line 1215, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/nix/store/197fs951irm99srns3lr8yjvndz3yknp-python-2.7.4/lib/python2.7/urllib2.py", line 1177, in do_open
+    raise URLError(err)
+urllib2.URLError: <urlopen error [Errno 1] _ssl.c:504: error:140943FC:SSL routines:SSL3_READ_BYTES:sslv3 alert bad record mac>
