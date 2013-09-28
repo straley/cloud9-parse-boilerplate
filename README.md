@@ -34,3 +34,18 @@ After you run the installer the following files and folders will be created:
     | parse                 - The Express dispatcher  
     | + main.js             - The Parse Cloud Code CLI client  
 
+
+Tips
+----
+Remove or rename the parse-created index.html file from the public folder in order
+to run the sample hello.ejs.  (Or, alternately, change the route in app.js).
+
+On the Parse Settings page at https://parse.com/apps/[your-application-name]/edit,
+click on the Webhosting tab and set ParseApp Name to a valid subdomain name.
+
+Test your app by running:
+
+    $ ./parse develop [your-application-name]
+
+Then visit the subdomain you selected at http://[subdomain].parseapp.com/.
+
